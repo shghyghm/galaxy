@@ -1,0 +1,182 @@
+html {
+    background-color:#3F2D45;
+  }
+  
+  body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+  }
+  
+  .container {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+  }
+  
+  header {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  
+  header h1 {
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+    font-size: 350%;
+    text-align: center;
+    background-color: #3F2D45;
+  }
+  
+  header p {
+    margin: 0;
+  }
+  
+  /* Site Navigation */
+  .site-nav {
+    margin-top: 2%;
+  }
+  
+  .site-nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 0.5%;
+  }
+  
+  .site-nav a {
+    display: block;
+    color: #3F2D45#;
+    text-decoration: none;
+    padding: 1% 2%;
+    border: 3px solid #e5e9dc;
+    border-bottom: none;
+  }
+  
+  .site-nav a:hover {
+    background-color: #e5e9dc;
+  }
+  
+  /* End Site Navigation */
+  
+  .content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+  }
+  
+  .main-area {
+    width: 66%;
+    float: left;
+    padding-right: 4%;
+    box-sizing: border-box;
+  }
+  
+  /* Form Styles */
+  form {
+    background-color: #EEE0F3;
+    padding: 3% 4%;
+    margin-bottom: 1%;
+  }
+  
+  .hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+  }
+  
+  input,
+  select {
+    font-family: Tahoma, sans-serif;
+    font-size: 100%;
+  }
+  
+  select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="number"],
+  input[type="tel"],
+  select {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 2%;
+    height: 7%;
+    margin-bottom: 1.5%;
+    border: 1px solid #cdcdcd;
+    outline: none;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus,
+  input[type="text"]:focus,
+  input[type="number"]:focus,
+  input[type="tel"]:focus {
+    border: 1px solid #EEE0F3;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.13);
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    background-color: #3F2D45;
+    color: #fff;
+    padding: 1.5% 0;
+    border: 1px solid#3F2D45 ;
+    border-radius: 3px;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="submit"]:focus {
+    border: 1px solid #79697E ;
+    background-color: #79697E;
+  }
+  
+  .checkbox-text {
+    font-size: 85%;
+    color: #777;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .fix {
+    clear: both;
+  }
+  
+  .group:before,
+  .group:after {
+    content: "";
+    display: table;
+  }
+  
+  .group:after {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 1;
+  }
+  
